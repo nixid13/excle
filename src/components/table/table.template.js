@@ -40,6 +40,5 @@ export const createTable = (rowsCount = 40) => {
     rows.push(createRow(cells, i+1));
   }
 
-
   return rows.join('');
 };
